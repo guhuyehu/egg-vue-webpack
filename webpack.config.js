@@ -7,7 +7,7 @@ module.exports = {
     entry: [ './client/src/main.js'],
     output: {
         path: path.resolve(__dirname, './app/public'),
-        publicPath: '/dist/',
+        publicPath: '/public/',
         filename: 'build.js'
     },
     devtool: '#eval-source-map',
